@@ -9,7 +9,7 @@ public class Main {
 		int[] periodo = { 0, 0, 0, 0 };         // divisao dos 4 periodos de loop
         int linhas =  in.nextInt();  
 
-		periodo = defPeriodo(linhas);           // calcula os valores dos periodos inicialmente
+		periodo = defPeriodo(linhas);           // pre calcula os valores dos periodos
 
 		for (int i = 0; i < linhas; i++) {
 			for (int j = 0; j < 4; j++) {
