@@ -6,7 +6,7 @@ public class Main {
 	public static void main(String[] args) {
 	    Scanner in = new Scanner(System.in);
 		char[] valores = { ' ', 'x', ' ','\n' };// itens printaveis
-		int[] periodo = { 0, 0, 0, 0 };         // div dos 4 periodos de loop
+		int[] periodo = { 0, 0, 0, 0 };         // divisao dos 4 periodos de loop
         int linhas =  in.nextInt();  
 
 		periodo = defPeriodo(linhas);           // calcula os valores dos periodos inicialmente
